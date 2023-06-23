@@ -1,1 +1,33 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
+header{
+    width: 100%;
+    height: 85px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoAstroGame{
+    width: 160px;
+}
+.AstroGame_linkes ul li{
+    list-style: none;
+}
+.AstroGame_linkes ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.AstroGame_linkes li{
+    float: left;
+    padding-right: 40px;
+}
+.AstroGame_linkes ul li a:hover{
+    color: blueviolet;
+}  
+.img_carrito{
+    width: 30px;
+} 
+.btn_IS{
+    text-decoration: none;
+    color: aliceblue;
+}

@@ -1,4 +1,5 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
+/*START NAVBAR*/
 header{
     width: 100%;
     height: 85px;
@@ -8,6 +9,7 @@ header{
     justify-content: space-between;
 }
 .logoAstroGame{
+    margin-left: 20px;
     width: 160px;
 }
 .AstroGame_linkes ul li{
@@ -24,10 +26,21 @@ header{
 .AstroGame_linkes ul li a:hover{
     color: blueviolet;
 }  
+.AstroGame_linkes li a{
+    transition: all 0.3s;
+}
 .img_carrito{
-    width: 30px;
+    margin-right: 10px;
+}
+.img_lupa{
+    width: 31px;
+    margin-right: 20px;
 } 
 .btn_IS{
+    padding: 9px 25px;
+    margin-right: 20px;
     text-decoration: none;
+    background-color: blueviolet;
     color: aliceblue;
+    border-radius: 50px;
 }

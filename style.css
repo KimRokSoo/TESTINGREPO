@@ -197,6 +197,8 @@ footer{
 #footer_top{
     width: 90% !important;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 .about_us{
     width: 30%;
@@ -219,27 +221,49 @@ footer{
     margin-top: 10px;
     margin-left: 10px;
 }
-#conteiner_about_us2{
-    padding-top: 6.9rem;
-}
 #about_us2{
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
     float: left;
     padding-top: 2.5rem;
-    padding-left: 3rem;
+    padding-left: 5rem;
     color: aliceblue;
 }
-.linkes_about li a{
+.linkes_about ul li a{
     text-decoration: none;
-    list-style: none;
     color: aliceblue;
+    position: relative;
+    left: -35px;
 }
-.linkes_about li{
-    list-style: none;
+.linkes_about ul li{
+    list-style: none ;
     padding-top: 10px;
 }
 #about_us2 h1{
     padding-bottom: 1rem;
 }
-
+#conteiner_about_us3{
+    padding-top: 5rem;
+}
+#about_us3{
+    width: 30%;
+    float: left;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+    padding-left: 4rem;
+    color: aliceblue;
+}
+.redes_sociales{
+    margin-top: 1rem;
+    margin-right: 15px;
+    padding: 5px;
+    background-color: #cec1dc;
+    border: 2px solid #cec1dc;
+    border-radius: 30px;
+}
+.derechos{
+    padding-top: 2rem;
+}
+.derechos2{
+    width: 16.9rem;
+}

@@ -88,21 +88,29 @@ header{
 .img_zelda{
     width: 650px;
 }
+.precio_zelda{
+    width: 250px;
+    position: relative;
+    top: -670px;
+    right: 170px;
+}
 .container_zelda{
-width: 90%;
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 15px;
-margin: 0 auto;
-background-color: #040014;
-display: flex;
-justify-content: center;
-align-items: center;
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin: 0 auto;
+    background-color: #040014;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -250px;
 }
 .container_zelda{
     box-shadow: 2px 1px 33px 14px rgba(152,121,186,1);
--webkit-box-shadow: 2px 1px 33px 14px rgba(152,121,186,1);
--moz-box-shadow: 2px 1px 33px 14px rgba(152,121,186,1);
+    -webkit-box-shadow: 2px 1px 33px 14px rgba(152,121,186,1);
+    -moz-box-shadow: 2px 1px 33px 14px rgba(152,121,186,1);
 }
 .container_zelda p{
     color: white;
@@ -112,6 +120,12 @@ align-items: center;
 }
 .img_hogwarts{
     width: 650px;
+}
+.precio_hogwarts{
+    width: 250px;
+    position: relative;
+    top: -670px;
+    left: 160px;
 }
 .container_hogwarts{
     width: 90%;
@@ -123,6 +137,8 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: -250px;
 }
 .container_hogwarts{
     box-shadow: 2px 1px 33px 14px rgba(152,121,186,1);
@@ -135,6 +151,12 @@ align-items: center;
 }
 .img_GoW{
     width: 650px;
+}
+.precio_GoW{
+    width: 250px;
+    position: relative;
+    top: -670px;
+    right: 165px;
 }
 #container_box_games_bottom{
     display: flex;
@@ -151,6 +173,8 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: -250px;
 }
 .container_GoW{
     box-shadow: 2px 1px 33px 14px rgba(152,121,186,1);

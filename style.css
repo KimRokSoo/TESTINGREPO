@@ -53,6 +53,42 @@ header{
 .btn_IS :hover{
     background-color: aliceblue; color: #040014;}
 /*end Navbar*/
+/*section 2*/
+#juegos_indies{
+    margin-top: 50rem;
+}
+.titulo {
+    padding-top: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(82, 0, 158));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
+.contenedor_juegos_indies {
+    width: 100%; height: 550px;
+    margin-top: 2em;
+    background-color: #04001481;
+    box-shadow: 0px 0px 13px 3px #d4adfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.ori, .hollow, .aleft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.rec_leer_mas {
+    width: 100px;
+    background-color: #d4adfc;
+    color: #040014;
+    border-radius: 31px 31px 31px 31px;
+    display: flex;
+    justify-content: center;}
+.contenedor_juegos_indies a{
+    text-decoration: none !important;
+}
+/*finish section 2*/
 /*start main*/
 #fondo{
     background-image: url(img/fondo.png);

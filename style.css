@@ -187,3 +187,59 @@ header{
     text-decoration: none;
     list-style: none;
 }
+/*Start Footer*/
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: #040014;
+    color: aliceblue;
+}
+#footer_top{
+    width: 90% !important;
+    margin: 0 auto;
+}
+.about_us{
+    width: 30%;
+    float: left;
+}
+#text_about{
+    padding-top: 1rem;
+}
+.conteiner_about_us{
+    padding-top: 2.5rem;
+}
+#conteiner_about_us1{
+    padding-top: 1rem;
+}
+.information{
+    display: flex;
+    align-items: center;
+}
+.information p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#conteiner_about_us2{
+    padding-top: 6.9rem;
+}
+#about_us2{
+    width: 30%;
+    margin: 0 auto;
+    float: left;
+    padding-top: 2.5rem;
+    padding-left: 3rem;
+    color: aliceblue;
+}
+.linkes_about li a{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+.linkes_about li{
+    list-style: none;
+    padding-top: 10px;
+}
+#about_us2 h1{
+    padding-bottom: 1rem;
+}
+

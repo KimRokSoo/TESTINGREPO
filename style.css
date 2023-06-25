@@ -798,6 +798,14 @@ header{
 .terminos_2 {
     color: #190437;
     padding-top: 2em;}
+#footer_sorteo{
+    width: 100%;
+    height: 80px;
+    background-color: #1b1825;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 /*FIN DE SORTEO*/
 /*COMIENZO DE INICIAR SESION*/
 body {background-image: url(img4/fondo-sesion.png);
@@ -924,4 +932,12 @@ header{
 
 .form__input:focus ~ .form__line, .form__input:not(:placeholder-shown) ~ .form__line {
 transform: scale(1);}
+#footer_inicioDeSesion{
+    width: 100%;
+    height: 80px;
+    background-color: #1b1825;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*FIN DE INICIO DE SESION*/

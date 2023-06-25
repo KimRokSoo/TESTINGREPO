@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Tejerina Sophia">
+    <title>Astro Game sorteo</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <a href="#"><img class="logoAstroGame" src="img/LOGO.png"></a>
+        <nav class="AstroGame_linkes">
+             <ul>
+                <li><a href="index.html" title="Astro Game inicio">INICIO</a></li> 
+                <li><a href="Sorteo.html">SORTEOS</a></li>
+                <li><a href="NuevoyDestacado.html">NUEVO Y DESTACADO</a></li>
+             </ul>
+        </nav>
+        <div>
+             <a href="#"><img class="img_carrito" src="img/cart.svg"></a>
+             <a href="#"><img class="img_lupa" src="img/magnifying-glass-solid.svg"></a>
+             <a href="Sesion.html" class="btn_IS" title="Astro Game sesion">INICIAR SESION</a>
+         </div>
+    </header>
+    <!--section 1-->
+    <section id="sorteo_personalidades">
+        <div class="cont_sorteo">
+            <h1 class="titulo_sorteo">¿QUÉ TIPO DE JUGADOR ERES?</h1>
+        </div>
+        <h4 id="texto_personalidades">¡Participa en esta encuesta y ganate un juego totalmente gratis!</h4>
+        <div class="cont_pers_1">
+            <form action="datos.html" method="get">
+                <label>¿Cuántas horas a la semana dedicas a los videojuegos en promedio?</label>
+                <div class="dot">
+                    <input type="radio" name="1" value="Menos de 5 horas">
+                    <label>Menos de 5 horas</label>
+                    <input type="radio" name="1" value="5-10 horas">
+                    <label>5-10 horas</label>
+                    <input type="radio" name="1" value="11-20 horas">
+                    <label>11-20 horas</label>
+                    <input type="radio" name="1" value="21-30 horas">
+                    <label>21-30 horas</label>
+                    <input type="radio" name="1" value="Más de 30 horas">
+                    <label>Más de 30 horas</label>
+                </div>
+                <label>¿Prefieres jugar en solitario o en modo multijugador?</label>
+                <div class="dot">
+                    <input type="radio" name="2" value="En solitario">
+                    <label>En solitario</label>
+                    <input type="radio" name="2" value="Con amigos">
+                    <label>Con amigos</label>
+                    <input type="radio" name="2" value="Multijugador masivo">
+                    <label>Multijugador masivo</label>
+                </div>
+                <label>¿Cómo describirías tu estilo de juego?</label>
+                <div class="dot">
+                    <input type="radio" name="3" value="Competitivo y orientado a ganar">
+                    <label>Competitivo y orientado a ganar</label>
+                    <input type="radio" name="3" value="Relajado y causla">
+                    <label>Relajado y causla</label>
+                    <input type="radio" name="3" value="Cooperativo">
+                    <label>Cooperativo</label>
+                    <input type="radio" name="3" value="Impulsivo">
+                    <label>Impulsivo</label>
+                </div>
+                <label>¿Qué aspectos de los videojuegos te atraen más?</label>
+                <div class="dot">
+                    <input type="radio" name="4" value="La historia y la narrativa">
+                    <label>La historia y la narrativa</label>
+                    <input type="radio" name="4" value="Los desafíos y la dificultad">
+                    <label>Los desafíos y la dificultad</label>
+                    <input type="radio" name="4" value="La interacción social con otros jugadores">
+                    <label>La interacción social con otros jugadores</label>
+                    <input type="radio" name="4" value="La posibilidad de personalización y progreso en el juego">
+                    <label>La posibilidad de personalización y progreso en el juego</label>
+                </div>
+                <label>¿Has experimentado situaciones de competencia o rivalidad intensa mientras juegas videojuegos?</label>
+                <div class="dot">
+                    <input type="radio" name="5" value="Sí, con frecuencia">
+                    <label>Sí, con frecuencia</label>
+                    <input type="radio" name="5" value="Sí, en ocasiones">
+                    <label>Sí, en ocasiones</label>
+                    <input type="radio" name="5" value="No, rara vez">
+                    <label>No, rara vez</label>
+                    <input type="radio" name="5" value="No, nunca">
+                    <label>No, nunca</label>
+                </div>
+                <label>¿Crees que los videojuegos pueden mejorar habilidades como la toma de decisiones y la resolución de problemas en la vida real?</label>
+                <div class="dot">
+                    <input type="radio" name="5" value="Sí, con frecuencia">
+                    <label>Sí, con frecuencia</label>
+                    <input type="radio" name="5" value="Sí, en ocasiones">
+                    <label>Sí, en ocasiones</label>
+                    <input type="radio" name="5" value="No, rara vez">
+                    <label>No, rara vez</label>
+                    <input type="radio" name="5" value="No, nunca">
+                    <label>No, nunca</label>
+                </div>
+                <label>¿Crees que los videojuegos pueden mejorar habilidades como la toma de decisiones y la resolución de problemas en la vida real?</label>
+                <div class="dot">
+                    <input type="radio" name="6" value="Sí">
+                    <label>Sí</label>
+                    <input type="radio" name="6" value="No">
+                    <label>No</label>
+                    <input type="radio" name="6" value="No estoy seguro/a">
+                    <label>No estoy seguro/a</label>
+                </div>
+                <label>¿Has experimentado cambios de estado de ánimo mientras juegas videojuegos?</label>
+                <div class="dot">
+                    <input type="radio" name="7" value="Sí, me siento emocionado/a y feliz">
+                    <label>Sí, me siento emocionado/a y feliz</label>
+                    <input type="radio" name="7" value="Sí, me siento frustrado/a y enojado/a">
+                    <label>Sí, me siento frustrado/a y enojado/a</label>
+                    <input type="radio" name="7" value="Sí, me siento ansioso/a y estresado/a">
+                    <label>Sí, me siento ansioso/a y estresado/a</label>
+                    <input type="radio" name="7" value="No, no experimento cambios significativos">
+                    <label>No, no experimento cambios significativos</label>
+                </div>
+            </form>
+        </div>
+        <div class="cont_pers_2">
+            <form action="datos.html" method="get">
+                <div class="caja_datos">
+                    <input class="imput_datos" type="text" placeholder="Nombre Completo">
+                    <input class="imput_datos" type="text" placeholder="Correo electrónico">
+                    <input class="imput_datos" type="text" placeholder="Número telefónico" maxlength="16">
+                    <input class="imput_datos" type="text" placeholder="Nacionalidad">
+                    <label class="option_datos">Género</label>
+                    <select name="genero">
+                        <option>Mujer</option>
+                        <option>Hombre</option>
+                        <option>Otro</option>
+                    </select>
+                    <label class="option_datos">Edad</label>
+                    <select name="edad">
+                        <option>Menor de 18 años</option>
+                        <option>18-24</option>
+                        <option>25-34</option>
+                        <option>35-44</option>
+                        <option>45 años o más</option>
+                    </select>
+                    <div class="terminos_1">
+                        <label>¿Estás registrado?</label>
+                        <label>Sí</label>
+                        <input type="radio" name="x" value="Sí">
+                        <label>No</label>
+                        <input type="radio" name="x" value="No">
+                        <div class="check">
+                            <input type="checkbox" name="terminos">
+                            <label id="terminos">Acepto términos y condiciones</label>
+                        </div>
+                    </div>
+                    <input type="submit" id="boton_enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="sorteo_tarjetas">
+        <div class="cont_tarjetas">
+            <h1 class="titulo_sorteo">¡GANATE DOS TARJETAS DE REGALO!</h1>
+        </div>
+        <div class="cont_tarjetas_2">
+            <form action="datos.html" method="get">
+                <div class="caja_datos">
+                    <input class="imput_datos" type="text" placeholder="Nombre Completo">
+                    <input class="imput_datos" type="text" placeholder="Correo electrónico">
+                    <input class="imput_datos" type="text" placeholder="Número telefónico" maxlength="16">
+                    <input class="imput_datos" type="text" placeholder="Nacionalidad">
+                    <label class="option_datos">Género</label>
+                    <select name="genero">
+                        <option>Mujer</option>
+                        <option>Hombre</option>
+                        <option>Otro</option>
+                    </select>
+                    <label class="option_datos">Edad</label>
+                    <select name="edad">
+                        <option>Menor de 18 años</option>
+                        <option>18-24</option>
+                        <option>25-34</option>
+                        <option>35-44</option>
+                        <option>45 años o más</option>
+                    </select>
+                    <div class="text_area">
+                        <label>Cuentanos por qué deberíamos darte las tarjetas de regalo</label>
+                        <textarea id="textarea" name="textarea" rows="4" cols="120"></textarea>
+                    </div>
+                    <div class="terminos_2">
+                        <label>¿Estás registrado?</label>
+                        <label>Sí</label>
+                        <input type="radio" name="x" value="Sí">
+                        <label>No</label>
+                        <input type="radio" name="x" value="No">
+                        <div class="check">
+                            <input type="checkbox" name="terminos">
+                            <label id="terminos">Acepto términos y condiciones</label>
+                        </div>
+                    </div>
+                    <input type="submit" id="boton_enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
